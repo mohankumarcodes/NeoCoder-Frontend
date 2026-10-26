@@ -1,0 +1,56 @@
+/* SIDEBAR */
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  background: white;
+}
+
+/* LOGO */
+.logo {
+  margin-bottom: 30px;
+  text-align: left;
+  font-size: 28px;
+}
+
+/* MENU CONTAINER */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* SECTION HEADINGS */
+.menu-heading {
+  margin-top: 18px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #666;
+  text-align: left;
+}
+
+/* MENU ITEMS */
+.menu-item,
+.menu p {
+  padding: 10px 14px;
+  margin-left: 10px; /* TAB EFFECT */
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-align: left;
+  transition: 0.2s;
+}
+
+/* HOVER */
+.menu-item:hover,
+.menu p:hover {
+  background: #edebeb;
+}
+
+/* ACTIVE ITEM */
+.active {
+  background: #8b00b3;
+  color: white;
+}

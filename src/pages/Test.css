@@ -1,0 +1,97 @@
+.test-page {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.question-section {
+  flex: 1;
+  padding: 30px;
+  background: #F6F6F6;
+  width: 60%;
+  text-align: left;
+}
+.test-header{
+  background: #ffffff;
+  border-bottom: 2px solid #a8a1ca;
+  width: 100%;
+  height: 100px;
+}
+.header-text{
+  text-align: center;
+}
+.test-container{
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+.answer-section {
+  width: 40%;
+  border-left: 1px solid #ddd;
+  padding: 30px;
+  background: #ffffff;
+   text-align: left;
+}
+
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.question-numbers button {
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.active-question {
+  background: #6c4df6;
+  color: white;
+}
+
+.question-card {
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  padding: 30px;
+  background: #ffffff;
+}
+
+.option {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.selected {
+  border: 2px solid #6c4df6;
+}
+
+.footer-buttons {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  
+  width: 40%;
+  padding: 10px;
+}
+
+.finish-btn {
+  background: crimson;
+}
+.pagination-btn{
+  margin-left: 55%;
+}
+.next-btn{
+   margin-left: 60px;
+   padding: 12px 20px 12px 20px;
+   
+}
+.timer{
+  margin-right: 30px;
+}

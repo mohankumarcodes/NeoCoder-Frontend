@@ -1,0 +1,90 @@
+/* CARD */
+.prep-card {
+  background: white;
+
+  border: 1px solid #eee;
+
+  border-radius: 18px;
+
+  padding: 14px;
+
+  transition: 0.2s;
+
+  cursor: pointer;
+}
+
+/* HOVER */
+.prep-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* IMAGE */
+.prep-card-image {
+  width: 100%;
+  height: 150px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+}
+
+/* TITLE */
+.prep-card h3 {
+  margin-top: 16px;
+  margin-bottom: 8px;
+
+  font-size: 28px;
+
+  text-align: left;
+}
+
+/* COMPANY */
+.company-name {
+  color: #6c63ff;
+
+  font-size: 15px;
+
+  margin-bottom: 14px;
+
+  text-align: left;
+}
+
+/* DETAILS */
+.card-details {
+  display: flex;
+
+  justify-content: space-between;
+
+  font-size: 14px;
+
+  color: #555;
+
+  margin-bottom: 18px;
+}
+
+/* BUTTON */
+.prep-card button {
+  width: 100%;
+
+  background: #f1edff;
+
+  color: #5b3df5;
+
+  border: none;
+
+  padding: 14px;
+
+  border-radius: 12px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.prep-card button:hover {
+  background: #e4ddff;
+}

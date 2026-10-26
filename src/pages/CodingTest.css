@@ -1,0 +1,361 @@
+/* FULL PAGE */
+.coding-page {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* LEFT PANEL */
+.problem-panel {
+  width: 40%;
+
+  border-right: 1px solid #ddd;
+
+  padding: 20px;
+
+  overflow-y: auto;
+
+  background: white;
+}
+
+/* RIGHT PANEL */
+.editor-panel {
+  flex: 1;
+
+  display: flex;
+
+  flex-direction: column;
+
+  background: #fff;
+}
+
+/* PROBLEM HEADER */
+.problem-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 20px;
+}
+
+/* TAGS */
+.problem-tags {
+  display: flex;
+
+  gap: 10px;
+}
+
+.problem-tags span {
+  background: #f3f3f3;
+
+  padding: 6px 10px;
+
+  border-radius: 6px;
+
+  font-size: 14px;
+}
+
+/* DESCRIPTION */
+.problem-description {
+  line-height: 1.7;
+}
+
+/* TOP BAR */
+.editor-topbar {
+  padding: 14px 20px;
+
+  border-bottom: 1px solid #ddd;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  background: white;
+}
+
+/* LANGUAGE SECTION */
+.language-section {
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+}
+
+/* DROPDOWN */
+.language-dropdown {
+  background: #f3f3f3;
+
+  padding: 8px 10px;
+
+  border: 1px solid #cfcccc;
+
+  border-radius: 8px;
+
+  outline: none;
+}
+
+/* EDITOR */
+.editor-wrapper {
+  flex: 1;
+
+  overflow: hidden;
+}
+
+/* OUTPUT PANEL */
+.output-panel {
+
+  border-top: 1px solid #ddd;
+
+  background: white;
+
+  transition: all 0.3s ease;
+}
+
+/* COLLAPSED */
+.output-panel.collapsed {
+  height: 70px;
+}
+
+/* EXPANDED */
+.output-panel.expanded {
+  height: 380px;
+}
+
+/* OUTPUT TOPBAR */
+.output-topbar {
+
+  height: 70px;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  padding: 0 20px;
+
+  background: #fafafa;
+}
+
+/* LEFT SIDE */
+.output-left {
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+}
+
+/* TOGGLE BUTTON */
+/* SIMPLE ARROW TOGGLE */
+.arrow-toggle {
+
+  font-size: 15px;
+
+  cursor: pointer;
+
+  color: #444;
+
+  user-select: none;
+
+  transition: 0.2s;
+}
+
+.arrow-toggle:hover {
+  color: #000;
+}
+
+/* CHECKBOX */
+.checkbox-label {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 8px;
+
+  font-size: 14px;
+
+  color: #555;
+}
+
+/* ACTION BUTTONS */
+.editor-actions {
+
+  display: flex;
+
+  gap: 12px;
+}
+
+/* RUN BUTTON */
+.run-button {
+
+  background: #1d8f3f;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+/* SUBMIT BUTTON */
+.submit-button {
+
+  background: #6c4df6;
+
+  color: white;
+
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+
+  font-weight: 500;
+}
+
+/* OUTPUT CONTENT */
+.output-content {
+
+  padding: 20px;
+
+  border-top: 1px solid #eee;
+
+  overflow-y: auto;
+
+  height: calc(100% - 70px);
+}
+
+/* OUTPUT TEXT */
+.output-content pre {
+
+  background: #f7f7f7;
+
+  padding: 15px;
+
+  border-radius: 10px;
+
+  margin-top: 10px;
+
+  white-space: pre-wrap;
+}
+
+/* OUTPUT CONTENT */
+.output-content {
+
+  padding: 24px;
+
+  overflow-y: auto;
+
+  background: #fafafa;
+
+  height: calc(100% - 70px);
+}
+
+/* ERROR SECTION */
+.error-section {
+
+  margin-bottom: 30px;
+}
+
+/* ERROR HEADING */
+.error-section h3 {
+
+  font-size: 28px;
+
+  margin-bottom: 16px;
+
+  color: #222;
+}
+
+/* ERROR BOX */
+.error-box {
+
+  background: #f5f5f5;
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  overflow-x: auto;
+}
+
+/* ERROR TEXT */
+.error-box pre {
+
+  color: #d10000;
+
+  font-size: 16px;
+
+  line-height: 1.8;
+
+  margin: 0;
+
+  white-space: pre-wrap;
+}
+
+/* INPUT OUTPUT WRAPPER */
+.io-section {
+
+  display: flex;
+
+  gap: 20px;
+
+  margin-top: 10px;
+}
+
+/* EACH CARD */
+.io-card {
+
+  flex: 1;
+}
+
+/* CARD HEADING */
+.io-card h3 {
+
+  font-size: 20px;
+
+  margin-bottom: 14px;
+
+  color: #222;
+}
+
+/* INPUT OUTPUT BOX */
+.io-box {
+
+  background: #f5f5f5;
+
+  min-height: 120px;
+
+  border-radius: 10px;
+
+  padding: 18px;
+}
+
+/* IO TEXT */
+.io-box pre {
+
+  margin: 0;
+
+  font-size: 18px;
+
+  color: #333;
+}

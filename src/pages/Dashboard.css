@@ -1,0 +1,177 @@
+/* FULL PAGE */
+.dashboard-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* BELOW NAVBAR */
+.dashboard-layout {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 240px;
+  border-right: 1px solid #eee;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* MAIN CONTENT */
+.dashboard-main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+}
+
+/* RIGHT PANEL */
+.attempt-panel {
+  width: 260px;
+  border-left: 1px solid #eee;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* MAIN PAGE HEADING */
+.HeadingOfMainPage {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+/* TOP BANNER */
+.assessment-banner {
+  background: #f4efff;
+  border-radius: 18px;
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* BANNER CONTENT */
+.BannerContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+/* RECOMMENDED TEXT */
+.BannerRecommended {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* BANNER TITLE */
+.BannerContent h3 {
+  margin: 0;
+  font-size: 25px;
+}
+
+/* SUBTEXT */
+.BannerSpan {
+  font-size: 18px;
+  color: #666;
+}
+
+/* START BUTTON */
+.start-btn {
+  background: #8b00b3;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+.start-btn:hover {
+  background: #730094;
+}
+
+/* PREPARATION SECTION */
+.preparation-section {
+  margin-top: 30px;
+}
+
+/* PREPARATION HEADING */
+.PreparationHeading {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+/* CARD GRID */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 30px;
+}
+
+/* ATTEMPT CARD */
+.attempt-card {
+  border: 1px solid #eee;
+  border-radius: 14px;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: left;
+}
+.attemptScoreDate{
+   display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+}
+.retake-btn{
+  display: block;
+  margin: 15px auto 0;
+  background: #8b00b3;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 12px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 12px;
+  transition: 0.2s;
+}
+.retake-btn :hover{
+   background: #7a0b98;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+  .dashboard-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .attempt-panel {
+    display: none;
+  }
+
+  .assessment-banner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .BannerContent h2 {
+    font-size: 28px;
+  }
+
+  .dashboard-main {
+    padding: 20px;
+  }
+}
