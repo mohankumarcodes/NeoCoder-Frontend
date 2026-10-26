@@ -1,16 +1,30 @@
-# React + Vite
+# NeoCoder – Online Assessment Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
+NeoCoder is a web-based coding assessment platform designed to provide an interactive environment for technical assessments.
 
-Currently, two official plugins are available:
+## Frontend Technologies
+- React.js
+- JavaScript
+- HTML5 and CSS3
+- React Router (if used in the project)
+- Responsive UI design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Key Features
+- Login and onboarding screens
+- Assessment dashboard and attempt history
+- Multiple-choice assessment interface
+- Assessment timer and review functionality (where implemented)
+- Coding assessment interface (where implemented)
 
-## React Compiler
+## Project Status
+Independent portfolio project. The frontend currently uses dummy data; backend integration is a separate development phase.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## How to Run Locally
+1. Install Node.js LTS.
+2. Clone the repository.
+3. Run `npm install`.
+4. Run `npm run dev`.
+5. Open the local URL shown in the terminal.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*Note: Include only features that are implemented and working in the current version.*
